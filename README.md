@@ -21,8 +21,14 @@ Casting Map
 | **String**   	| XXX   | XXX | XXX | XXX | XXX  | XXX | XXX | XXX  | - |
 
 
-[01]: https://github.com/ahmednabil88/java-casting-map/blob/b8d94367354011a0470f1b73c8f135f095e28dd4/src/castingMap/CastingByteTo.java#L10
-[02]: https://github.com/ahmednabil88/java-casting-map/blob/b8d94367354011a0470f1b73c8f135f095e28dd4/src/castingMap/CastingByteTo.java#L16
+[01]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingByteTo.java#L20-L23
+[02]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingByteTo.java#L25-L28
+[03]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingByteTo.java#L30-L33
+[04]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingByteTo.java#L35-L38
+[05]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingByteTo.java#L40-L43
+[06]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingByteTo.java#L45-L48
+[07]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingByteTo.java#L50-L53
+[09]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingByteTo.java#L55-L57
 
 [10]: https://www.url.com/
 [02]: https://www.url.com/
