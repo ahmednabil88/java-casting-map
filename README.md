@@ -4,7 +4,7 @@ Its an easy MAP to illiterate, how to cast a java primitive data type to another
 `byte`, `short`, `int`, `long`, `float`, `double`, `boolean`, `char`, `String`  
 
 
-Casting 
+Casting Map
 ============
 
 
