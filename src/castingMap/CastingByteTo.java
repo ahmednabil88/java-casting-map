@@ -52,9 +52,9 @@ public class CastingByteTo {
 		hint = "[ It will print corresponding (ASCII) char ]";
 		System.out.println(Helper.getCastingMessage(FROM, "char") + "\t" + "charVar = " + charVar + "\t" + hint);
 
-		// casting byte to string
+		// casting byte to String
 		String stringVar = Byte.toString(byteVar);
-		System.out.println(Helper.getCastingMessage(FROM, "string") + "\t" + "stringVar = " + stringVar);
+		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
 
 	}
 }
