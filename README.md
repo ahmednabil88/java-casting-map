@@ -10,7 +10,7 @@ Casting Map
 
 | From => To 	|       **byte**        |       **short**       |   **int**     |         **long**      |       **float**       |   **double**     |         **boolean**      |       **char**       |   **String**     |  
 |---------------|-----------------------|-----------------------|---------------|-----------------------|-----------------------|---------------|-----------------------|-----------------------|---------------|
-| **byte**  	| -                     | [*BY Default*][01]      | [*BY Default*][02]    | XXX | XXX  | XXX | XXX | XXX  | XXX |
+| **byte**  	| -                     | [*BY Default*][01]      | [*BY Default*][02]    | [*BY Default*][03] | [*BY Default*][04]  | [*BY Default*][05] | [**INVALID**][06] | [*BY Default*][07]  | [*BY Default*][08] |
 | **short** 	| [(byte) shortVar;][10] | -                     | [*BY Default*][02]    | XXX | XXX  | XXX | XXX | XXX  | XXX |
 | **int**   	| [(byte) intVar;][20]   | [(short) intVar;][21] | -     | XXX | XXX  | XXX | XXX | XXX  | XXX |
 | **long**   	| XXX   | XXX | XXX | - | XXX  | XXX | XXX | XXX  | XXX |
@@ -28,7 +28,7 @@ Casting Map
 [05]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingByteTo.java#L40-L43
 [06]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingByteTo.java#L45-L48
 [07]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingByteTo.java#L50-L53
-[09]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingByteTo.java#L55-L57
+[08]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingByteTo.java#L55-L57
 
 [10]: https://www.url.com/
 [02]: https://www.url.com/
