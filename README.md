@@ -10,8 +10,8 @@ Casting Map
 
 | From => To 	|       **byte**        |       **short**       |   **int**     |         **long**      |       **float**       |   **double**     |         **boolean**      |       **char**       |   **String**     |  
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **byte**  	| -                     | [*BY Default*][01]      | [*BY Default*][02]    | [*BY Default*][03] | [*BY Default*][04]  | [*BY Default*][05] | [**INVALID**][06] | [*(char) byteVar; //ASCII Char*][07]  | [*Byte.toString(byteVar);*][08] |
-| **short** 	| [(byte) shortVar;][10] | -                     | [*BY Default*][02]    | XXX | XXX  | XXX | XXX | XXX  | XXX |
+| **byte**  	| -                     | [*ByDefault*][01]      | [*ByDefault*][02]    | [*ByDefault*][03] | [*ByDefault*][04]  | [*ByDefault*][05] | [**INVALID**][06] | [*(char) byteVar; //ASCII_Char*][07]  | [*Byte.toString(byteVar);*][08] |
+| **short** 	| [(byte) shortVar;][10] | -                     | [*ByDefault*][02]    | XXX | XXX  | XXX | XXX | XXX  | XXX |
 | **int**   	| [(byte) intVar;][20]   | [(short) intVar;][21] | -     | XXX | XXX  | XXX | XXX | XXX  | XXX |
 | **long**   	| XXX   | XXX | XXX | - | XXX  | XXX | XXX | XXX  | XXX |
 | **float**   	| XXX   | XXX | XXX | XXX | -  | XXX | XXX | XXX  | XXX |
