@@ -12,7 +12,7 @@ public class CastingByteTo {
 
 	public static void main(String[] args) {
 
-		byte byteVar = 65; // any byte value
+		byte byteVar = 65; // any value
 		System.out.println("===========================");
 		System.out.println("byteVar = " + byteVar);
 		System.out.println("===========================");
