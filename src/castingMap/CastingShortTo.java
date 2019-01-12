@@ -19,7 +19,7 @@ public class CastingShortTo {
 
 		// casting short to byte
 		byte byteVar = (byte) shortVar;
-		System.out.println(Helper.getCastingMessage(FROM, "short") + "\t" + "shortVar = " + byteVar);
+		System.out.println(Helper.getCastingMessage(FROM, "byte") + "\t" + "byteVar = " + byteVar);
 
 		// casting short to int
 		// BY Default - No casting required
