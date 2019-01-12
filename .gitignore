@@ -21,3 +21,16 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+# Eclipse IDE related
+/bin/
+# [IDE interested school] vs [IDE independed school]
+# [IDE interested school]
+# If you're wondering about .project and .classpath files being staged by Git,
+# see https://github.com/github/gitignore/pull/2336
+#/.classpath
+#/.project
+# [IDE independed school]
+# they will add both IDE related files like (.classpath) and (.project) to ignore list
+
