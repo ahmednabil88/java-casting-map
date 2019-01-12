@@ -1,6 +1,6 @@
 # java-casting-map
 Its an easy MAP to illiterate, how to cast a java primitive data type to another one by examples  
-**[Supported Java Primative Data Types][1]**  
+[**Supported Java Primitive Data Types**][1]  
 `byte`, `short`, `int`, `long`, `float`, `double`, `boolean`, `char`, `String`  
 
 
@@ -12,7 +12,7 @@ Casting Map
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **byte**  	| -                     | [*ByDefault*][01]      | [*ByDefault*][02]    | [*ByDefault*][03] | [*ByDefault*][04]  | [*ByDefault*][05] | [**INVALID**][06] | [*(char)byteVar;//ASCII_Char*][07]  | [*Byte.toString(byteVar);*][08] |
 | **short** 	| [(byte)shortVar;][10] | -  | [*ByDefault*][12]    | [*ByDefault*][13] | [*ByDefault*][14]  | [*ByDefault*][15] | [**INVALID**][16] | [*(char)shortVar;//ASCII_Char*][17]  | [*Short.toString(shortVar);*][18] |
-| **int**   	| XXX   | XXX | -     | XXX | XXX  | XXX | XXX | XXX  | XXX |
+| **int**   	| [(byte)intVar;][20]   | [(short)intVar;][21] | -     | [*ByDefault*][23] | [*ByDefault*][24]  | [*ByDefault*][25] | [**INVALID**][26] | [*(char)intVar;//ASCII_Char*][27]  | [*Integer.toString(intVar);*][28] |
 | **long**   	| XXX   | XXX | XXX | - | XXX  | XXX | XXX | XXX  | XXX |
 | **float**   	| XXX   | XXX | XXX | XXX | -  | XXX | XXX | XXX  | XXX |
 | **double**   	| XXX   | XXX | XXX | XXX | XXX  | - | XXX | XXX  | XXX |
@@ -41,5 +41,13 @@ Casting Map
 [17]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingShortTo.java#L49-L52
 [18]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingShortTo.java#L54-L56
 
+[20]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingIntTo.java#L20-L23
+[21]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingIntTo.java#L25-L27
+[23]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingIntTo.java#L29-L32
+[24]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingIntTo.java#L34-L37
+[25]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingIntTo.java#L39-L42
+[26]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingIntTo.java#L44-L47
+[27]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingIntTo.java#L49-L52
+[28]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingIntTo.java#L54-L56
 
 
