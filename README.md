@@ -1,6 +1,6 @@
 # java-casting-map
 Its an easy MAP to illiterate, how to cast a java primitive data type to another one by examples  
-**Supported Types**  
+**[Supported Java Primative Data Types][1]**  
 `byte`, `short`, `int`, `long`, `float`, `double`, `boolean`, `char`, `String`  
 
 
@@ -20,6 +20,8 @@ Casting Map
 | **char**   	| XXX   | XXX | XXX | XXX | XXX  | XXX | XXX | -  | XXX |
 | **String**   	| XXX   | XXX | XXX | XXX | XXX  | XXX | XXX | XXX  | - |
 
+
+[1]: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
 
 [01]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingByteTo.java#L20-L23
 [02]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingByteTo.java#L25-L28
