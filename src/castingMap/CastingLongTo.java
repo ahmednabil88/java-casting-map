@@ -18,7 +18,7 @@ public class CastingLongTo {
 		System.out.println("===========================");
 
 		// casting long to byte
-		// BY Default - No casting required
+		
 		byte byteVar = (byte) longVar;
 		System.out.println(Helper.getCastingMessage(FROM, "byte") + "\t" + "byteVar = " + byteVar);
 
@@ -31,27 +31,27 @@ public class CastingLongTo {
 		int intVar = (int) longVar;
 		System.out.println(Helper.getCastingMessage(FROM, "int") + "\t" + "intVar = " + intVar);
 
-		// casting int to float
+		// casting long to float
 		// BY Default - No casting required
 		float floatVar = longVar;
 		System.out.println(Helper.getCastingMessage(FROM, "float") + "\t" + "floatVar = " + floatVar);
 
-		// casting int to double
+		// casting long to double
 		// BY Default - No casting required
 		double doubleVar = longVar;
 		System.out.println(Helper.getCastingMessage(FROM, "double") + "\t" + "doubleVar = " + doubleVar);
 
-		// casting int to boolean
+		// casting long to boolean
 		// boolean booleanVar = true;
 		String hint = "[ InValid - Can NOT be casted ]";
 		System.out.println(Helper.getCastingMessage(FROM, "boolean") +  "\t" + hint);
 
-		// casting int to char
+		// casting long to char
 		char charVar = (char) (longVar);
 		hint = "[ It will print corresponding (ASCII) char ]";
 		System.out.println(Helper.getCastingMessage(FROM, "char") + "\t" + "charVar = " + charVar + "\t" + hint);
 
-		// casting int to String
+		// casting long to String
 		String stringVar = Long.toString(longVar);
 		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
 
