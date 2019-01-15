@@ -14,8 +14,8 @@ Casting Map
 | **byte**  	| -                     | [*ByDefault*][01]      | [*ByDefault*][02]    | [*ByDefault*][03] | [*ByDefault*][04]  | [*ByDefault*][05] | [**INVALID**][06] | [*(char)byteVar;//ASCII_Char*][07]  | [*Byte.toString(byteVar);*][08] |
 | **short** 	| [(byte)shortVar;][10] | -  | [*ByDefault*][12]    | [*ByDefault*][13] | [*ByDefault*][14]  | [*ByDefault*][15] | [**INVALID**][16] | [*(char)shortVar;//ASCII_Char*][17]  | [*Short.toString(shortVar);*][18] |
 | **int**   	| [(byte)intVar;][20]   | [(short)intVar;][21] | -     | [*ByDefault*][23] | [*ByDefault*][24]  | [*ByDefault*][25] | [**INVALID**][26] | [*(char)intVar;//ASCII_Char*][27]  | [*Integer.toString(intVar);*][28] |
-| **long**   	| [(byte)longVar;][30]   | [(short)longVar;][31] | [(int)longVar;][32]     | - | [*ByDefault*][34]  | [*ByDefault*][35] | [**INVALID**][36] | [*(char)longVar;//ASCII_Char*][37]  | [*Long.toString(longVar);*][38] |
-| **float**   	| XXX   | XXX | XXX | XXX | -  | XXX | XXX | XXX  | XXX |
+| **long**   	| [(byte)longVar;][30]  | [(short)longVar;][31] | [(int)longVar;][32]     | - | [*ByDefault*][34]  | [*ByDefault*][35] | [**INVALID**][36] | [*(char)longVar;//ASCII_Char*][37]  | [*Long.toString(longVar);*][38] |
+| **float**   	| [(byte)floatVar;][40] | [(short)floatVar;][41] | [(int)floatVar;][42]     | [(long)floatVar;][43] | -  | [*ByDefault*][45] | [**INVALID**][46] | [*(char)floatVar;//ASCII_Char*][47]  | [*Float.toString(floatVar);*][48] |
 | **double**   	| XXX   | XXX | XXX | XXX | XXX  | - | XXX | XXX  | XXX |
 | **boolean**	| XXX   | XXX | XXX | XXX | XXX  | XXX | - | XXX  | XXX |
 | **char**   	| XXX   | XXX | XXX | XXX | XXX  | XXX | XXX | -  | XXX |
@@ -60,6 +60,20 @@ Casting Map
 [36]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingLongTo.java#L44-L47
 [37]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingLongTo.java#L49-L52
 [38]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingLongTo.java#L54-L56
+
+
+
+[40]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingFloatTo.java#L20-L22
+[41]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingFloatTo.java#L24-L26
+[42]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingFloatTo.java#L28-L30
+[43]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingFloatTo.java#L32-L34
+[45]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingFloatTo.java#L36-L39
+[46]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingFloatTo.java#L41-L45
+[47]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingFloatTo.java#L46-L49
+[48]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingFloatTo.java#L51-L53
+
+
+
 
 
 
