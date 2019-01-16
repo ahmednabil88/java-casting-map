@@ -37,17 +37,17 @@ public class CastingDoubleTo {
 		float floatVar = (float) doubleVar;
 		System.out.println(Helper.getCastingMessage(FROM, "float") + "\t" + "floatVar = " + floatVar);
 
-		// casting float to boolean
+		// casting double to boolean
 		// boolean booleanVar = true;
 		String hint = "[ InValid - Can NOT be casted ]";
 		System.out.println(Helper.getCastingMessage(FROM, "boolean") +  " " + hint);
 
-		// casting float to char
+		// casting double to char
 		char charVar = (char) (doubleVar);
 		hint = "[ It will print corresponding (ASCII) char ]";
 		System.out.println(Helper.getCastingMessage(FROM, "char") + "\t" + "charVar = " + charVar + "\t" + hint);
 
-		// casting float to String
+		// casting double to String
 		String stringVar = Double.toString(doubleVar);
 		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
 
