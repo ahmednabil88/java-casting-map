@@ -17,7 +17,7 @@ Casting Map
 | **long**   	| [(byte)longVar;][30]  | [(short)longVar;][31] | [(int)longVar;][32]     | - | [*ByDefault*][34]  | [*ByDefault*][35] | [**INVALID**][36] | [*(char)longVar;//ASCII_Char*][37]  | [*Long.toString(longVar);*][38] |
 | **float**   	| [(byte)floatVar;][40] | [(short)floatVar;][41] | [(int)floatVar;][42]     | [(long)floatVar;][43] | -  | [*ByDefault*][45] | [**INVALID**][46] | [*(char)floatVar;//ASCII_Char*][47]  | [*Float.toString(floatVar);*][48] |
 | **double**   	| [(byte)doubleVar;][50] | [(short)doubleVar;][51] | [(int)doubleVar;][52]     | [(long)doubleVar;][53] | [(float)doubleVar;][54]  | - | [**INVALID**][56] | [*(char)doubleVar;//ASCII_Char*][57]  | [*Double.toString(doubleVar);*][58] |
-| **boolean**	| XXX   | XXX | XXX | XXX | XXX  | XXX | - | XXX  | XXX |
+| **boolean**	| [**INVALID**][60]   | [**INVALID**][60] | [**INVALID**][60] | [**INVALID**][60] | [**INVALID**][60]  | [**INVALID**][60] | - | [**INVALID**][60]  | [*Boolean.toString(booleanVar);*][68] |
 | **char**   	| XXX   | XXX | XXX | XXX | XXX  | XXX | XXX | -  | XXX |
 | **String**   	| [Byte.parseByte(stringVar);][80]   | [Short.parseShort(stringVar);][81] | [Integer.parseInt(stringVar);][82] | [Long.parseLong(stringVar);][83] | [Float.parseFloat(stringVar);][84]  | [Double.parseDouble(stringVar);][85] | [Boolean.parseBoolean(stringVar);][86] | [stringVar.charAt(index);][87]  | - |
 
@@ -81,6 +81,9 @@ Casting Map
 [56]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingDoubleTo.java#L40-L43
 [57]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingDoubleTo.java#L45-L48
 [58]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingDoubleTo.java#L50-L52
+
+[60]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingBooleanTo.java#L20-L22 "boolean - Can NOT be casted to byte/short/int/long/float/double/char"
+[68]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingBooleanTo.java#L24-L27
 
 
 
