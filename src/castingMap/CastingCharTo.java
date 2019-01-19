@@ -44,6 +44,12 @@ public class CastingCharTo {
 		// It will print corresponding (ASCII) Number
 		float floatVar = charVar;
 		System.out.println(Helper.getCastingMessage(FROM, "float") + "\t" + "floatVar = " + floatVar);
+		
+		// casting char to double
+		// BY Default - No casting required
+		// It will print corresponding (ASCII) Number
+		double doubleVar = charVar;
+		System.out.println(Helper.getCastingMessage(FROM, "double") + "\t" + "doubleVar = " + doubleVar);
 
 		// casting char to boolean
 		// boolean booleanVar = true;
