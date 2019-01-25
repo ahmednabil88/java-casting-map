@@ -51,6 +51,10 @@ public class CastingFloatTo {
 		// casting float to String
 		String stringVar = Float.toString(floatVar);
 		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
+		
+		// casting float to String - ByConcatenation
+		stringVar = floatVar + "";
+		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
 
 	}
 }

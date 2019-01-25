@@ -21,9 +21,14 @@ public class CastingBooleanTo {
 		String hint = "[ boolean - Can NOT be casted to byte/short/int/long/float/double/char ]";
 		System.out.println( hint);
 
-		// casting double to String
+		// casting boolean to String
 		// If the specified boolean is true, then the string "true" will be returned, otherwise the string "false" will be returned
 		String stringVar = Boolean.toString(booleanVar);
+		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
+		
+		// casting boolean to String - ByConcatenation
+		// If the specified boolean is true, then the string "true" will be returned, otherwise the string "false" will be returned
+		stringVar = booleanVar + "";
 		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
 
 	}

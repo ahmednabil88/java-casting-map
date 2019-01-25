@@ -50,6 +50,10 @@ public class CastingDoubleTo {
 		// casting double to String
 		String stringVar = Double.toString(doubleVar);
 		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
+		
+		// casting double to String - ByConcatenation
+		stringVar = doubleVar + "";
+		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
 
 	}
 }

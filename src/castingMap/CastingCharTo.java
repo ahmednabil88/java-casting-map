@@ -59,6 +59,10 @@ public class CastingCharTo {
 		// casting char to String
 		String stringVar = Character.toString(charVar);
 		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
+		
+		// casting char to String - ByConcatenation
+		stringVar = charVar + "";
+		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
 
 	}
 }

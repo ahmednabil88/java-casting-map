@@ -54,6 +54,10 @@ public class CastingIntTo {
 		// casting int to String
 		String stringVar = Integer.toString(intVar);
 		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
+		
+		// casting int to String - ByConcatenation
+		stringVar = intVar + "";
+		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
 
 	}
 }

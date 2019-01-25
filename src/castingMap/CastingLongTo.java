@@ -54,6 +54,10 @@ public class CastingLongTo {
 		// casting long to String
 		String stringVar = Long.toString(longVar);
 		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
+		
+		// casting long to String - ByConcatenation
+		stringVar = longVar + "";
+		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
 
 	}
 }

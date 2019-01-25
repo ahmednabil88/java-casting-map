@@ -55,6 +55,10 @@ public class CastingByteTo {
 		// casting byte to String
 		String stringVar = Byte.toString(byteVar);
 		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
+		
+		// casting byte to String - ByConcatenation
+		stringVar = byteVar + "";
+		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
 
 	}
 }

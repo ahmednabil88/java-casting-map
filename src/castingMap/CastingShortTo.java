@@ -54,6 +54,10 @@ public class CastingShortTo {
 		// casting short to String
 		String stringVar = Short.toString(shortVar);
 		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
+		
+		// casting short to String - ByConcatenation
+		stringVar = shortVar + "";
+		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
 
 	}
 }
