@@ -63,6 +63,44 @@ public class CastingCharTo {
 		// casting char to String - ByConcatenation
 		stringVar = charVar + "";
 		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
-
+		
+		
+		System.out.println();
+		
+		char charDigitVar = '9';
+		System.out.println("===========================");
+		System.out.println("charDigitVar = " + charDigitVar);
+		System.out.println("===========================");
+		
+		// casting char to byte	
+		// It will print corresponding (Digit) Number
+		byte byteDigitVar = (byte) (charDigitVar-'0');
+		System.out.println(Helper.getCastingMessage(FROM, "byte") + "\t" + "byteDigitVar = " + byteDigitVar);
+		
+		// casting char to short	
+		// It will print corresponding (Digit) Number
+		short shortDigitVar = (short) (charDigitVar-'0');
+		System.out.println(Helper.getCastingMessage(FROM, "short") + "\t" + "shortDigitVar = " + shortDigitVar);
+		
+		// casting char to int	
+		// It will print corresponding (Digit) Number
+		int intDigitVar = (charDigitVar-'0');
+		System.out.println(Helper.getCastingMessage(FROM, "int") + "\t" + "intDigitVar = " + intDigitVar);
+		
+		// casting char to long	
+		// It will print corresponding (Digit) Number
+		long longDigitVar = (charDigitVar-'0');
+		System.out.println(Helper.getCastingMessage(FROM, "long") + "\t" + "longDigitVar = " + longDigitVar);
+		
+		// casting char to float	
+		// It will print corresponding (Digit) Number
+		float floatDigitVar = (charDigitVar-'0');
+		System.out.println(Helper.getCastingMessage(FROM, "float") + "\t" + "floatDigitVar = " + floatDigitVar);
+		
+		// casting char to double	
+		// It will print corresponding (Digit) Number
+		double doubleDigitVar = (charDigitVar-'0');
+		System.out.println(Helper.getCastingMessage(FROM, "double") + "\t" + "doubleDigitVar = " + doubleDigitVar);
+		
 	}
 }
