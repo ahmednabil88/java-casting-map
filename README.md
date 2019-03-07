@@ -18,7 +18,7 @@ Casting Map
 | **float**   	| [(byte)floatVar;][40] | [(short)floatVar;][41] | [(int)floatVar;][42]     | [(long)floatVar;][43] | -  | [*ByDefault*][45] | [**INVALID**][46] | [*(char)floatVar;//ASCII_Char*][47]  | [*Float.toString(floatVar);*][48] or [ByConcatenation][49] |
 | **double**   	| [(byte)doubleVar;][50] | [(short)doubleVar;][51] | [(int)doubleVar;][52]     | [(long)doubleVar;][53] | [(float)doubleVar;][54]  | - | [**INVALID**][56] | [*(char)doubleVar;//ASCII_Char*][57]  | [*Double.toString(doubleVar);*][58] or [ByConcatenation][59] |
 | **boolean**	| [**INVALID**][60]   | [**INVALID**][60] | [**INVALID**][60] | [**INVALID**][60] | [**INVALID**][60]  | [**INVALID**][60] | - | [**INVALID**][60]  | [*Boolean.toString(booleanVar);*][68] or [ByConcatenation][69] |
-| **char**   	| [(byte)charVar;//ASCII_Number][70]   | [(short)charVar;//ASCII_Number][71] | [*ByDefault//ASCII_Number*][72] | [*ByDefault//ASCII_Number*][73] | [*ByDefault//ASCII_Number*][74]  | [*ByDefault//ASCII_Number*][75] | [**INVALID**][76] | -  | [*Char.toString(charVar);*][78] or [ByConcatenation][79] |
+| **char**   	| [(byte)charVar;//ASCII_Number][70] or [(byte)(charDigitVar-'0');//Digit_Number][720]   | [(short)charVar;//ASCII_Number][71] or [(short)(charDigitVar-'0');//Digit_Number][721] | [*ByDefault//ASCII_Number*][72] or [(charDigitVar-'0');//Digit_Number][722] | [*ByDefault//ASCII_Number*][73] or [(charDigitVar-'0');//Digit_Number][723] | [*ByDefault//ASCII_Number*][74] or [(charDigitVar-'0');//Digit_Number][724]  | [*ByDefault//ASCII_Number*][75] or [(charDigitVar-'0');//Digit_Number][725] | [**INVALID**][76] | -  | [*Char.toString(charVar);*][78] or [ByConcatenation][79] |
 | **String**   	| [Byte.parseByte(stringVar);][80]   | [Short.parseShort(stringVar);][81] | [Integer.parseInt(stringVar);][82] | [Long.parseLong(stringVar);][83] | [Float.parseFloat(stringVar);][84]  | [Double.parseDouble(stringVar);][85] | [Boolean.parseBoolean(stringVar);][86] | [stringVar.charAt(index);][87]  | - |
 
 
@@ -103,6 +103,12 @@ Casting Map
 [78]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingCharTo.java#L59-L61
 [79]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingCharTo.java#L63-L65
 
+[720]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingCharTo.java#L75-L78
+[721]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingCharTo.java#L80-L83
+[722]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingCharTo.java#L85-L88
+[723]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingCharTo.java#L90-L93
+[724]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingCharTo.java#L95-L98
+[725]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingCharTo.java#L100-L103
 
 
 [80]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingStringTo.java#L19-L22
