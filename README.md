@@ -22,6 +22,32 @@ Casting Map
 | **String**   	| [Byte.parseByte(stringVar);][80]   | [Short.parseShort(stringVar);][81] | [Integer.parseInt(stringVar);][82] | [Long.parseLong(stringVar);][83] | [Float.parseFloat(stringVar);][84]  | [Double.parseDouble(stringVar);][85] | [Boolean.parseBoolean(stringVar);][86] | [stringVar.charAt(index);][87]  | - |
 
 
+Primitive Data Types - Values Range
+============
+
+|      -      |   | **size** |                                                 | **Default Values**    | **Minimum value**           | **Maximum value**         |       |
+| ----------- | - | -------- | ----------------------------------------------- | --------------------- | --------------------------- | ------------------------- | ----- |
+| **byte**    |   | 8 bit    | two's complement integer                        | 0                     | \-128                       | 127                       | 2\^7  |
+| **short**   |   | 16 bit   | two's complement integer                        | 0                     | \-32,768                    | 32,767                    | 2\^15 |
+| **int**     |   | 32 bit   | two's complement integer                        | 0                     | \-2,147,483,648             | 2,147,483,647             | 2\^31 |
+| **long**    |   | 64 bit   | two's complement integer                        | 0L                    | \-9,223,372,036,854,770,000 | 9,223,372,036,854,770,000 | 2\^63 |
+| **float**   |   | 32 bit   | single-precision 32-bit                         | 0.0f                  |                             |                           |       |
+|             |   |          | IEEE 754 floating point.                        |                       |                             |                           |       |
+| **double**  |   | 64 bit   | double-precision 64-bit                         | 0.0d                  |                             |                           |       |
+|             |   |          | IEEE 754 floating point                         |                       |                             |                           |       |
+| **boolean** |   | \-       |                                                 | false                 |                             |                           |       |
+| **char**    |   | 16 bit   | single 16-bit Unicode character                 | '\\u0000'             | \\u0000' (or 0)             | \\uffff' (or 65,535)      |       |
+| **String**  |   |          |                                                 | null                  |                             |                           |       |
+
+
+
+
+
+
+
+
+
+
 [1]: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
 
 [01]: https://github.com/ahmednabil88/java-casting-map/blob/master/src/castingMap/CastingByteTo.java#L20-L23 "BY Default - No casting required"
