@@ -31,10 +31,8 @@ Primitive Data Types - Values Range
 | **short**   |   | 16 bit   | two's complement integer                        | 0                     | \-32,768                    | 32,767                    | 2\^15 |
 | **int**     |   | 32 bit   | two's complement integer                        | 0                     | \-2,147,483,648             | 2,147,483,647             | 2\^31 |
 | **long**    |   | 64 bit   | two's complement integer                        | 0L                    | \-9,223,372,036,854,770,000 | 9,223,372,036,854,770,000 | 2\^63 |
-| **float**   |   | 32 bit   | single-precision 32-bit                         | 0.0f                  |                             |                           |       |
-|             |   |          | IEEE 754 floating point.                        |                       |                             |                           |       |
-| **double**  |   | 64 bit   | double-precision 64-bit                         | 0.0d                  |                             |                           |       |
-|             |   |          | IEEE 754 floating point                         |                       |                             |                           |       |
+| **float**   |   | 32 bit   | single-precision 32-bit/IEEE 754 floating point.| 0.0f                  |                             |                           |       |
+| **double**  |   | 64 bit   | double-precision 64-bit/IEEE 754 floating point.| 0.0d                  |                             |                           |       |
 | **boolean** |   | \-       |                                                 | false                 |                             |                           |       |
 | **char**    |   | 16 bit   | single 16-bit Unicode character                 | '\\u0000'             | \\u0000' (or 0)             | \\uffff' (or 65,535)      |       |
 | **String**  |   |          |                                                 | null                  |                             |                           |       |
