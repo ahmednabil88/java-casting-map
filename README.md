@@ -25,7 +25,7 @@ Casting Map
 Primitive Data Types - Values Range
 ============
 
-|      -      |   | **size** |                                                 | **Default Values**    | **Minimum value**           | **Maximum value**         |       |
+|      -      |   | **size** |                                                 | **Default Value**     | **Minimum value**           | **Maximum value**         |       |
 | ----------- | - | -------- | ----------------------------------------------- | --------------------- | --------------------------- | ------------------------- | ----- |
 | **byte**    |   | 8 bit    | two's complement integer                        | 0                     | \-128                       | 127                       | 2\^7  |
 | **short**   |   | 16 bit   | two's complement integer                        | 0                     | \-32,768                    | 32,767                    | 2\^15 |
