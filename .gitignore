@@ -1,36 +1,32 @@
-# Compiled class file
-*.class
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
 
-# Log file
-*.log
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# BlueJ files
-*.ctxt
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-
-# Eclipse IDE related
+### VS Code ###
+.vscode/
 /bin/
-# [IDE interested school] vs [IDE independed school]
-# [IDE interested school]
-# If you're wondering about .project and .classpath files being staged by Git,
-# see https://github.com/github/gitignore/pull/2336
-#/.classpath
-#/.project
-# [IDE independed school]
-# they will add both IDE related files like (.classpath) and (.project) to ignore list
-
