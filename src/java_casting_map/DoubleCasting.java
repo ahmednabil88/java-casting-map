@@ -1,4 +1,4 @@
-package castingMap;
+package java_casting_map;
 
 /**
  * This class demonstrate how to cast double primitive data type to others ones
@@ -6,7 +6,7 @@ package castingMap;
  * @author Ahmed Nabil
  *
  */
-public class CastingDoubleTo {
+public class DoubleCasting {
 	
 	private static final String FROM = "double";
 

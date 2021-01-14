@@ -1,4 +1,4 @@
-package castingMap;
+package java_casting_map;
 
 public class Helper {
 

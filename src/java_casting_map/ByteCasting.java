@@ -1,62 +1,63 @@
-package castingMap;
+package java_casting_map;
 
 /**
- * This class demonstrate how to cast int primitive data type to others ones
+ * This class demonstrate how to cast byte primitive data type to others ones
  * 
  * @author Ahmed Nabil
  *
  */
-public class CastingIntTo {
+public class ByteCasting {
 	
-	private static final String FROM = "int";
+	private static final String FROM = "byte";
 
 	public static void main(String[] args) {
 
-		int intVar = 65; // any value
+		byte byteVar = 65; // any value
 		System.out.println("===========================");
-		System.out.println("intVar = " + intVar);
+		System.out.println("byteVar = " + byteVar);
 		System.out.println("===========================");
 
-		// casting int to byte
+		// casting byte to short
 		// BY Default - No casting required
-		byte byteVar = (byte) intVar;
-		System.out.println(Helper.getCastingMessage(FROM, "byte") + "\t" + "byteVar = " + byteVar);
-
-		// casting int to short
-		short shortVar = (short) intVar;
+		short shortVar = byteVar;
 		System.out.println(Helper.getCastingMessage(FROM, "short") + "\t" + "shortVar = " + shortVar);
 
-		// casting int to long
+		// casting byte to int
 		// BY Default - No casting required
-		long longVar = intVar;
+		int intVar = byteVar;
+		System.out.println(Helper.getCastingMessage(FROM, "int") + "\t" + "intVar = " + intVar);
+
+		// casting byte to long
+		// BY Default - No casting required
+		long longVar = byteVar;
 		System.out.println(Helper.getCastingMessage(FROM, "long") + "\t" + "longVar = " + longVar);
 
-		// casting int to float
+		// casting byte to float
 		// BY Default - No casting required
-		float floatVar = intVar;
+		float floatVar = byteVar;
 		System.out.println(Helper.getCastingMessage(FROM, "float") + "\t" + "floatVar = " + floatVar);
 
-		// casting int to double
+		// casting byte to double
 		// BY Default - No casting required
-		double doubleVar = intVar;
+		double doubleVar = byteVar;
 		System.out.println(Helper.getCastingMessage(FROM, "double") + "\t" + "doubleVar = " + doubleVar);
 
-		// casting int to boolean
+		// casting byte to boolean
 		// boolean booleanVar = true;
 		String hint = "[ InValid - Can NOT be casted ]";
-		System.out.println(Helper.getCastingMessage(FROM, "boolean") +  "\t" + hint);
+		System.out.println(Helper.getCastingMessage(FROM, "boolean") + "\t" + hint);
 
-		// casting int to char
-		char charVar = (char) (intVar);
+		// casting byte to char
+		char charVar = (char) (byteVar);
 		hint = "[ It will print corresponding (ASCII) char ]";
 		System.out.println(Helper.getCastingMessage(FROM, "char") + "\t" + "charVar = " + charVar + "\t" + hint);
 
-		// casting int to String
-		String stringVar = Integer.toString(intVar);
+		// casting byte to String
+		String stringVar = Byte.toString(byteVar);
 		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
 		
-		// casting int to String - ByConcatenation
-		stringVar = intVar + "";
+		// casting byte to String - ByConcatenation
+		stringVar = byteVar + "";
 		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
 
 	}

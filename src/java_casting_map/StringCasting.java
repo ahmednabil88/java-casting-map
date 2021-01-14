@@ -1,4 +1,4 @@
-package castingMap;
+package java_casting_map;
 
 /**
  * This class demonstrate how to cast String data type to others ones
@@ -6,7 +6,7 @@ package castingMap;
  * @author Ahmed Nabil
  *
  */
-public class CastingStringTo {
+public class StringCasting {
 	
 	private static final String FROM = "String";
 

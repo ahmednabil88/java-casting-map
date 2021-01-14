@@ -1,62 +1,59 @@
-package castingMap;
+package java_casting_map;
 
 /**
- * This class demonstrate how to cast short primitive data type to others ones
+ * This class demonstrate how to cast float primitive data type to others ones
  * 
  * @author Ahmed Nabil
  *
  */
-public class CastingShortTo {
+public class FloatCasting {
 	
-	private static final String FROM = "short";
+	private static final String FROM = "float";
 
 	public static void main(String[] args) {
 
-		short shortVar = 65; // any value
+		float floatVar = 65; // any value
 		System.out.println("===========================");
-		System.out.println("shortVar = " + shortVar);
+		System.out.println("floatVar = " + floatVar);
 		System.out.println("===========================");
 
-		// casting short to byte
-		byte byteVar = (byte) shortVar;
+		// casting float to byte		
+		byte byteVar = (byte) floatVar;
 		System.out.println(Helper.getCastingMessage(FROM, "byte") + "\t" + "byteVar = " + byteVar);
 
-		// casting short to int
-		// BY Default - No casting required
-		int intVar = shortVar;
+		// casting float to short
+		short shortVar = (short) floatVar;
+		System.out.println(Helper.getCastingMessage(FROM, "short") + "\t" + "shortVar = " + shortVar);
+
+		// casting float to int		
+		int intVar = (int) floatVar;
 		System.out.println(Helper.getCastingMessage(FROM, "int") + "\t" + "intVar = " + intVar);
 
-		// casting short to long
-		// BY Default - No casting required
-		long longVar = shortVar;
+		// casting float to long		
+		long longVar = (long) floatVar;
 		System.out.println(Helper.getCastingMessage(FROM, "long") + "\t" + "longVar = " + longVar);
 
-		// casting short to float
+		// casting float to double
 		// BY Default - No casting required
-		float floatVar = shortVar;
-		System.out.println(Helper.getCastingMessage(FROM, "float") + "\t" + "floatVar = " + floatVar);
-
-		// casting short to double
-		// BY Default - No casting required
-		double doubleVar = shortVar;
+		double doubleVar = floatVar;
 		System.out.println(Helper.getCastingMessage(FROM, "double") + "\t" + "doubleVar = " + doubleVar);
 
-		// casting short to boolean
+		// casting float to boolean
 		// boolean booleanVar = true;
 		String hint = "[ InValid - Can NOT be casted ]";
-		System.out.println(Helper.getCastingMessage(FROM, "boolean") + hint);
+		System.out.println(Helper.getCastingMessage(FROM, "boolean") +  " " + hint);
 
-		// casting short to char
-		char charVar = (char) (shortVar);
+		// casting float to char
+		char charVar = (char) (floatVar);
 		hint = "[ It will print corresponding (ASCII) char ]";
 		System.out.println(Helper.getCastingMessage(FROM, "char") + "\t" + "charVar = " + charVar + "\t" + hint);
 
-		// casting short to String
-		String stringVar = Short.toString(shortVar);
+		// casting float to String
+		String stringVar = Float.toString(floatVar);
 		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
 		
-		// casting short to String - ByConcatenation
-		stringVar = shortVar + "";
+		// casting float to String - ByConcatenation
+		stringVar = floatVar + "";
 		System.out.println(Helper.getCastingMessage(FROM, "String") + "\t" + "stringVar = " + stringVar);
 
 	}
