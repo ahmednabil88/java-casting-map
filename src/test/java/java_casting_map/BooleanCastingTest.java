@@ -11,6 +11,6 @@ class BooleanCastingTest {
 
     @Test
     public void testMM() {
-        assertTrue(true);
+        assertTrue(false);
     }
 }
